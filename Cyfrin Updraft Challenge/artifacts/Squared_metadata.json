@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin Updraft Challenge/2.07.sol": "Squared"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cyfrin Updraft Challenge/2.07.sol": {
+			"keccak256": "0xce013d34f034367a49a439b0f47bca92caf11e2e95749e978cb2ab9351ee44b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://284fe22b8a03ad0dcf88d8c77c5dc1045241791561499330f7611ba6f8465528",
+				"dweb:/ipfs/QmbqV5kKpcW3kjpqmGk9yssNBHcychvRxPufAbRu9LKrL8"
+			]
+		},
+		"SimpleStorage.sol": {
+			"keccak256": "0xb40a25553c9423ae902e46f798fabcb48526f09363f99cc715afb11b1c03d890",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91ed149a16622784f8f8231ed1ee9c588cac8036768e56f84be744e32bc60124",
+				"dweb:/ipfs/QmVbArq1U2jAehKc4dk5eTWhkrpdLhT6iqLKwj6at6m5GX"
+			]
+		}
+	},
+	"version": 1
+}

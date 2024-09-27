@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_surname",
+						"type": "string"
+					}
+				],
+				"name": "changeNameAndSurname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin Updraft Challenge/1.09.sol": "DataLocations"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cyfrin Updraft Challenge/1.09.sol": {
+			"keccak256": "0x663e0d184cef306121d800e0edec1441c5bb109a2c8da3c010d820535b89df96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c077233a755921f01e7a4afa4b59bd20806867dc5157b002282938dde4094b96",
+				"dweb:/ipfs/QmZZRWeyxe3wiBcu8Ff9yxipFt2ak3pjwAXLKm1bHvNuLU"
+			]
+		}
+	},
+	"version": 1
+}

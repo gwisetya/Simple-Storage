@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bird",
+				"outputs": [
+					{
+						"internalType": "contract Birds",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cow",
+				"outputs": [
+					{
+						"internalType": "contract Cows",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createBirdsContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createCowContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin Updraft Challenge/2.03.sol": "AnimalFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cyfrin Updraft Challenge/2.03.sol": {
+			"keccak256": "0xf83795670b78ec7a87fa7721152d8e941d595de0d1c095ead9737c6c4a2e4e3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2fe083e597d80e4c70a3ce464a94b0559adb3737d74ec1f8d78a2ef54b3059be",
+				"dweb:/ipfs/QmY276HX8pSmsB4RbeWqGg92iuRDdTzezwKBmKb3caqL52"
+			]
+		}
+	},
+	"version": 1
+}

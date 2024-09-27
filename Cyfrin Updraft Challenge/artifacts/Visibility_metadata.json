@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "externalPure",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin Updraft Challenge/1.6.sol": "Visibility"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cyfrin Updraft Challenge/1.6.sol": {
+			"keccak256": "0x09cb9e591da62ddb8edcc5b5beded5bd0215e9e5905cf789e01d27d315af1fc3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58ac2fcb79d7c26ec7f3a7e659f70d2ef574773ed90be9be7ef65bd0c3e70cea",
+				"dweb:/ipfs/QmRtPGvbKJB3GKigG8TJDwDfro5JMmeApEjSS1oMg2V6Fp"
+			]
+		}
+	},
+	"version": 1
+}

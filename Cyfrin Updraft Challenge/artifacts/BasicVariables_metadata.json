@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Quiz/1.5.sol": "BasicVariables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Quiz/1.5.sol": {
+			"keccak256": "0x80d7dd324b0b1641dcd23c090f1f4e22b508ffc0771608b3ffa1dff3b31e97de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fea6cf8fe3853a64d9bd4499112d71c95bf7e6271a3920cc3e759771090d79c",
+				"dweb:/ipfs/QmWisVtRbu5TGLUsSBVLb5Rj8fdGZc4TzJEU6WDogKSpif"
+			]
+		}
+	},
+	"version": 1
+}
